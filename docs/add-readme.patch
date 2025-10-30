@@ -1,0 +1,5 @@
+git checkout -b docs/add-central-readme
+git apply docs/add-readme.patch
+git add docs/README.md
+git commit -m "docs: add central README summarizing OctoAcme project management processes"
+git push --set-upstream origin docs/add-central-readme
